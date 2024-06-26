@@ -2,7 +2,8 @@
   "name": "drizzle-orm-course",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "db/drizzle.ts",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@neondatabase/serverless": "^0.9.3",
+    "dotenv": "^16.4.5",
     "drizzle-orm": "^0.31.2"
   },
   "devDependencies": {
